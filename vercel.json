@@ -1,9 +1,13 @@
 {
-  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "version": 2,
   "rewrites": [
     {
       "source": "/harga",
-      "destination": "https://kss.simkss.my.id"
+      "destination": "https://kss.simkss.my.id/harga"
+    },
+    {
+      "source": "/api/(.*)",
+      "destination": "https://kss.simkss.my.id/api/$1"
     }
   ]
 }
