@@ -1,1 +1,9 @@
-
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "rewrites": [
+    {
+      "source": "/harga*",
+      "destination": "https://simkss.my.id/harga"
+    }
+  ]
+}
