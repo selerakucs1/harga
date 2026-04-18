@@ -2,6 +2,10 @@
   "version": 2,
   "rewrites": [
     {
+      "source": "/(.*\\.(png|jpg|jpeg|gif|ico|svg))",
+      "destination": "https://kss.simkss.my.id/$1"
+    },
+    {
       "source": "/harga",
       "destination": "https://kss.simkss.my.id/harga"
     },
